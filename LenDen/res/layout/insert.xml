@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="top"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Enter Person Details"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#A2F368"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:hint="Person Name"
+        android:maxLength="10"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/takemoney"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:hint="Taking Amount"
+        android:inputType="numberDecimal"
+        android:maxLength="10"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/givemoney"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:hint="Giving Amount"
+        android:inputType="numberDecimal"
+        android:maxLength="10"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/login_button_bg"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/login_button_bg"
+        android:text="Reset" />
+
+</LinearLayout>

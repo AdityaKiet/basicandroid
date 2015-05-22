@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lastup">Updated:</string>
+    <string name="lastlatlng">Last Location: </string>
+    <string name="app_name">WomenSafety</string>
+    <string name="menu_settings">Menu Settings</string>
+    <string name="title_main">WomenSafety</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="address">Address:</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="enable_gps_dialog">GPS provider not enabled. Would you like to enable it?</string>
+    <string name="latlng">Current Location:</string>
+    <string name="unknown">--Unknown--</string>
+    <string name="no_gps_support">GPS provider not supported</string>
+    <string name="no_network_support">Network provider not supported</string>
+
+</resources>

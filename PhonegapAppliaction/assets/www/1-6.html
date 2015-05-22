@@ -1,0 +1,629 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<style type="text/css">
+table.table { border:1px solid #073E77; border-collapse:collapse; width:100%; }
+table.table th { background-color:#B7CAF7; border:1px solid #073E77; text-align: left; padding:3px; vertical-align:top; }
+table.table td { background-color:#E6EEF6; border:1px solid #073E77; padding:3px; vertical-align:top; }
+</style>
+<link href="pics/homescreen.gif" rel="apple-touch-icon" />
+
+<link href="css/style.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="javascript/functions.js" type="text/javascript"></script>
+<title>PHP Operators
+</title>
+<link href="pics/startup.png" rel="apple-touch-startup-image" />
+
+</head>
+
+<body>
+
+<div id="topbar" class="noeffect">
+<div id="title">
+		</div>
+	<div id="leftnav">
+		<a href="index.html"><img alt="home" src="images/home.png" /></a>
+		<a href="1-5.html">Back</a> </div>
+	<div id="rightnav">
+		<a href="1-7.html">Next</a> </div>
+</div>
+
+<div id="content">
+	<span class="graytitle"><font color = "white"size = "6">PHP Operators</font></span>
+	
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">Arithmetic Operators</font></span>
+<p>
+The table below lists the arithmetic operators in PHP:
+<table class="table">
+<tbody>
+<tr><th style="text-align: center;">Opt</th>
+<th style="text-align: center;">Name</th>
+<th style="text-align: center;">Desc</th>
+
+</tr>
+<tr>
+<td style="text-align: center;">x + y</td>
+<td style="text-align: center;">Addition</td>
+<td style="text-align: center;">Sum of x and y</td>
+
+</tr>
+<tr>
+<td style="text-align: center;">x - y</td>
+<td style="text-align: center;">Subtraction</td>
+<td style="text-align: center;">Difference of x and y</td>
+
+</tr>
+<tr>
+<td style="text-align: center;">x * y</td>
+<td style="text-align: center;">Multiplication</td>
+<td style="text-align: center;">Product of x and y</td>
+
+</tr>
+<tr>
+<td style="text-align: center;">x / y</td>
+<td style="text-align: center;">Division</td>
+<td style="text-align: center;">Quotient of x and y</td>
+
+</tr>
+<tr>
+<td style="text-align: center;">x % y</td>
+<td style="text-align: center;">Modulus</td>
+<td style="text-align: center;">Remainder of x divided by y</td>
+
+</tr>
+<tr>
+<td style="text-align: center;">- x</td>
+<td style="text-align: center;">Negation</td>
+<td style="text-align: center;">Opposite of x</td>
+
+</tr>
+<tr>
+<td style="text-align: center;">a . b</td>
+<td style="text-align: center;">Concatenation</td>
+<td style="text-align: center;">Concatenate two strings</td>
+
+</tr>
+
+</tbody>
+</table>
+
+
+
+</p>
+	</li>
+	</ul>
+	
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">Assignment Operators</font></span>
+<p>
+The basic assignment operator in PHP is "=". It means that the left operand gets set to the value of the expression on the right. That is, the value of "$x = 10" is 10.
+<table class="table">
+<tbody>
+<center>
+<tr>
+
+<th style="text-align: center;">Assignment</th>
+
+<th style="text-align: center;">Same as</th>
+
+<th style="text-align: center;">Desc</th>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x = y</td>
+
+<td style="text-align: center;">x = y</td>
+
+<td style="text-align: center;">The left operand gets set to the value of the expression on the right</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x += y</td>
+
+<td style="text-align: center;">x = x + y</td>
+
+<td style="text-align: center;">Addition</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x -= y</td>
+
+<td style="text-align: center;">x = x - y</td>
+
+<td style="text-align: center;">Subtraction</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x *= y</td>
+
+<td style="text-align: center;">x = x * y</td>
+
+<td style="text-align: center;">Multiplication</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x /= y</td>
+
+<td style="text-align: center;">x = x / y</td>
+
+<td style="text-align: center;">Division</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x %= y</td>
+
+<td style="text-align: center;">x = x % y</td>
+
+<td style="text-align: center;">Modulus</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">a .= b</td>
+
+<td style="text-align: center;">a = a . b</td>
+
+<td style="text-align: center;">Concatenate two strings</td>
+
+</tr>
+
+</center>
+</tbody>
+</table>
+
+
+
+</p>
+	</li>
+	</ul>
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">Incrementing/Decrementing Operators</font></span>
+<p>
+
+<table class="table">
+<tbody>
+<center>
+<tr>
+
+<th style="text-align: center;">Opt</th>
+
+<th style="text-align: center;">Name </th>
+
+<th style="text-align: center;">Desc</th>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">++ x</td>
+
+<td style="text-align: center;">Pre-increment</td>
+
+<td style="text-align: center;">Increments x by one, then returns x</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x ++</td>
+
+<td style="text-align: center;">Post-increment</td>
+
+<td style="text-align: center;">Returns x, then increments x by one</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">-- x</td>
+
+<td style="text-align: center;">Pre-decrement</td>
+
+<td style="text-align: center;">Decrements x by one, then returns x</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x --</td>
+
+<td style="text-align: center;">Post-decrement</td>
+
+<td style="text-align: center;">Returns x, then decrements x by one</td>
+
+</tr>
+
+
+</center>
+</tbody>
+</table>
+
+
+
+</p>
+	</li>
+	</ul>
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">Comparison Operators</font></span>
+<p>
+
+<table class="table">
+<tbody>
+<center>
+<tr>
+
+<th style="text-align: center;">Opt</th>
+
+<th style="text-align: center;">Name</th>
+
+<th style="text-align: center;">Desc</th>
+
+<th style="text-align: center;">Ex</th>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x == y</td>
+
+<td style="text-align: center;">Equal</td>
+
+<td style="text-align: center;">True if x is equal to y</td>
+
+<td style="text-align: center;">5==8 returns false</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x === y</td>
+
+<td style="text-align: center;">Identical</td>
+
+<td style="text-align: center;">True if x is equal to y, and they are of same type</td>
+
+<td style="text-align: center;">5===&quot;5&quot; returns false</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x != y</td>
+
+<td style="text-align: center;">Not equal</td>
+
+<td style="text-align: center;">True if x is not equal to y</td>
+
+<td style="text-align: center;">5!=8 returns true</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x &lt;&gt; y</td>
+
+<td style="text-align: center;">Not equal</td>
+
+<td style="text-align: center;">True if x is not equal to y</td>
+
+<td style="text-align: center;">5&lt;&gt;8 returns true</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x !== y</td>
+
+<td style="text-align: center;">Not identical</td>
+
+<td style="text-align: center;">True if x is not equal to y, or they are not of same type</td>
+
+<td style="text-align: center;">5!==&quot;5&quot; returns true</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x &gt; y</td>
+
+<td style="text-align: center;">Greater than</td>
+
+<td style="text-align: center;">True if x is greater than y</td>
+
+<td style="text-align: center;">5&gt;8 returns false</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x &lt; y</td>
+
+<td style="text-align: center;">Less than</td>
+
+<td style="text-align: center;">True if x is less than y</td>
+
+<td style="text-align: center;">5&lt;8 returns true</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x &gt;= y</td>
+
+<td style="text-align: center;">Greater than or equal to</td>
+
+<td style="text-align: center;">True if x is greater than or equal to y</td>
+
+<td style="text-align: center;">5&gt;=8 returns false</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x &lt;= y</td>
+
+<td style="text-align: center;">Less than or equal to</td>
+
+<td style="text-align: center;">True if x is less than or equal to y</td>
+
+<td style="text-align: center;">5&lt;=8 returns true</td>
+
+</tr>
+
+</center>
+</tbody>
+</table>
+
+
+
+</p>
+	</li>
+	</ul>
+	
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">Logical Operators</font></span>
+<p>
+
+<table class="table">
+<tbody>
+<center>
+<tr>
+
+<th style="text-align: center;">Opt</th>
+
+<th style="text-align: center;">Name</th>
+
+<th style="text-align: center;">Desc</th>
+
+<th style="text-align: center;">Ex</th>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x and y</td>
+
+<td style="text-align: center;">And</td>
+
+<td style="text-align: center;">True if both x and y are true</td>
+
+<td style="text-align: center;"> x=6<br />y=3
+
+<br>
+
+(x &lt; 10 and y &gt; 1) returns true</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x or y</td>
+
+<td style="text-align: center;">Or</td>
+
+<td style="text-align: center;">True if either or both x and y are true</td>
+
+<td style="text-align: center;"> x=6<br />y=3
+
+<br>
+
+(x==6 or y==5) returns true</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x xor y</td>
+
+<td style="text-align: center;">Xor</td>
+
+<td style="text-align: center;">True if either x or y is true, but not both</td>
+
+<td style="text-align: center;"> x=6<br />y=3
+
+<br>
+
+(x==6 xor y==3) returns false</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x &amp;&amp; y</td>
+
+<td style="text-align: center;">And</td>
+
+<td style="text-align: center;">True if both x and y are true</td>
+
+<td style="text-align: center;"> x=6<br />y=3<br>
+
+(x &lt; 10 &amp;&amp; y &gt; 1) returns true</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x || y</td>
+
+<td style="text-align: center;">Or</td>
+
+<td style="text-align: center;">True if either or both x and y are true</td>
+
+<td style="text-align: center;"> x=6<br />y=3<br>
+
+(x==5 || y==5) returns false</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">! x</td>
+
+<td style="text-align: center;">Not</td>
+
+<td style="text-align: center;">True if x is not true</td>
+
+<td style="text-align: center;"> x=6<br />y=3<br>
+
+!(x==y) returns true</td>
+
+</tr>
+
+
+</center>
+</tbody>
+</table>
+
+
+
+</p>
+	</li>
+	</ul>
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">Array Operators</font></span>
+<p>
+
+<table class="table">
+<tbody>
+<tr>
+
+<th style="text-align: center;">Opt</th>
+
+<th style="text-align: center;">Name</th>
+
+<th style="text-align: center;">Desc</th>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x + y</td>
+
+<td style="text-align: center;">Union</td>
+
+<td style="text-align: center;">Union of x and y</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x == y</td>
+
+<td style="text-align: center;">Equality</td>
+
+<td style="text-align: center;">True if x and y have the same key/value pairs</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x === y</td>
+
+<td style="text-align: center;">Identity</td>
+
+<td style="text-align: center;">True if x and y have the same key/value pairs in the same order and of the 
+
+same types</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x != y</td>
+
+<td style="text-align: center;">Inequality</td>
+
+<td style="text-align: center;">True if x is not equal to y</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x &lt;&gt; y</td>
+
+<td style="text-align: center;">Inequality</td>
+
+<td style="text-align: center;">True if x is not equal to y</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: center;">x !== y</td>
+
+<td style="text-align: center;">Non-identity</td>
+
+<td style="text-align: center;">True if x is not identical to y</td>
+
+</tr>
+
+</tbody>
+</table>
+
+
+
+</p>
+	</li>
+	</ul>
+	<ul class="pageitem">
+		<li class="textbox"><span class="header">*</span>
+<p>
+	
+	<table class="table">
+<tbody>
+<tr>
+
+<th style="text-align: center;">Opt = Operator</th>
+
+<th style="text-align: center;">Desc = Description</th>
+
+<th style="text-align: center;">Ex = Example</th>
+
+</tr>
+</tbody>
+</table>
+		</p>
+		</li>
+	</ul>
+</div>
+<div id="footer">
+Powered by APPDELITE</div>
+
+</body>
+
+</html>

@@ -1,0 +1,398 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<link href="pics/homescreen.gif" rel="apple-touch-icon" />
+
+<link href="css/style.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="javascript/functions.js" type="text/javascript"></script>
+<title>PHP Functions
+</title>
+<link href="pics/startup.png" rel="apple-touch-startup-image" />
+
+</head>
+
+<body>
+
+<div id="topbar" class="noeffect">
+<div id="title">
+		</div>
+	<div id="leftnav">
+		<a href="index.html"><img alt="home" src="images/home.png" /></a>
+		<a href="1-11.html">Back</a> </div>
+	<div id="rightnav">
+		<a href="1-13.html">Next</a> </div>
+</div>
+
+<div id="content">
+	<span class="graytitle"><font size="6" color="white">PHP Functions</font></span>
+<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">PHP Functions</font></span><p>
+		
+		<p>
+		<p>In this chapter we will show you how to create your own functions.</p>
+
+<p>To keep the script from being executed when the page loads, you can put it 
+
+into a function.</p>
+
+<p>A function will be executed by a call to the function.</p>
+
+<p>You may call a function from anywhere within a page.</p>
+
+		</p>
+		</li>
+		</ul>
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">Create a PHP Function</font></span><p>
+		
+		
+
+<br>
+
+
+<p>A function will be executed by a call to the function.</p>
+<br>
+<b>Syntax</b>
+<br>
+<br>
+<p class="code"><b>
+
+
+
+function <i>functionName</i>()<br />
+
+{<br />
+
+<i>code to be executed</i>;<br />
+
+}
+
+</b></p>
+<br>
+<p>PHP function guidelines:</p>
+<br>
+<ul>
+
+	<li>Give the function a name that reflects what the 
+
+	function does</li>
+
+	<li>The function name can start with a letter or 
+
+	underscore (not a number)</li>
+
+</ul>
+
+<br>
+
+<b>Example</b>
+<br>
+<br>
+<p>A simple function that writes my name when it is called:</p>
+<br>
+<p class="code"><b>
+
+
+
+&lt;html&gt;<br />
+
+&lt;body&gt;<br />
+
+<br />
+
+&lt;?php<br />
+
+function writeName()<br />
+
+{<br />
+
+echo &quot;John Reymond&quot;;<br />
+
+}<br />
+
+<br />
+
+echo &quot;My name is &quot;;<br />
+
+writeName();<br />
+
+?&gt;<br />
+
+<br />
+
+&lt;/body&gt;<br />
+
+&lt;/html&gt;
+
+
+
+</b></p>
+
+<br>
+
+<b>Output:</b>
+<br>
+<br>
+
+
+<p class="code"><b>
+
+
+
+My name is John Reymond
+
+</b></p>
+
+<br />
+
+		
+		</p>
+		
+		</li>
+	</ul>
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">PHP Functions - Adding parameters</font></span>
+<p>
+
+
+<p>To add more functionality to a function, we can add parameters. A parameter is just like a variable.</p>
+
+<p>Parameters are specified after the function name, inside the parentheses.</p>
+<br>
+<b>Example 1</b>
+<br> 
+<br>
+<p>The following example will write different first names, but equal last 
+
+name:</p>
+
+<p class="code"><b>
+
+
+
+&lt;html&gt;<br />
+
+&lt;body&gt;<br />
+
+<br />
+
+&lt;?php<br />
+
+function writeName($fname)<br />
+
+{<br />
+
+echo $fname . &quot; Reymond.&lt;br /&gt;&quot;;<br />
+
+}<br />
+
+<br />
+
+echo &quot;My name is &quot;;<br />
+
+writeName(&quot;John&quot;);<br />
+
+echo &quot;My sister's name is &quot;;<br />
+
+writeName(&quot;Jessi&quot;);<br />
+
+echo &quot;My brother's name is &quot;;<br />
+
+writeName(&quot;Sam&quot;);<br />
+
+?&gt;<br />
+
+<br />
+
+&lt;/body&gt;<br />
+
+&lt;/html&gt;
+
+
+
+</b></p>
+
+<br>
+
+<b>Output:</b>
+
+<br>
+<br>
+
+<p class="code"><b>
+
+
+
+My name is John Reymond.<br />
+
+My sister's name is Jessi Reymond.<br />
+
+My brother's name is Sam Reymond.
+
+
+
+</b></p>
+<br>
+<b>Example 2</b>
+<br>
+<br>
+<p>The following function has two parameters:</p>
+
+<p class="code"><b>
+
+
+
+&lt;html&gt;<br />
+
+&lt;body&gt;<br />
+
+<br />
+
+&lt;?php<br />
+
+function writeName($fname,$punctuation)<br />
+
+{<br />
+
+echo $fname . &quot; Reymond&quot; . $punctuation . &quot;&lt;br /&gt;&quot;;<br />
+
+}<br />
+
+<br />
+
+echo &quot;My name is &quot;;<br />
+
+writeName(&quot;John&quot;,&quot;.&quot;);<br />
+
+echo &quot;My sister's name is &quot;;<br />
+
+writeName(&quot;Jessi&quot;,&quot;!&quot;);<br />
+
+echo &quot;My brother's name is &quot;;<br />
+
+writeName(&quot;Sam&quot;,&quot;?&quot;);<br />
+
+?&gt;<br />
+
+<br />
+
+&lt;/body&gt;<br />
+
+&lt;/html&gt;
+
+
+
+</b></p>
+
+<br>
+
+<b>Output:</b>
+<br>
+
+<br>
+<p class="code"><b>
+
+
+
+My name is John Reymond.<br />
+
+My sister's name is Jessi Reymond!<br />
+
+My brother's name is Sam Reymond?
+
+
+
+</b></p>
+
+&nbsp;<hr />
+
+
+
+
+</p>	
+
+		</li>
+	</ul>
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">PHP Functions - Return values</font></span>
+<p>
+
+
+<p>To let a function return a value, use the return 
+
+statement.</p>
+<br>
+<b>Example</b>
+<br>
+<br>
+<p class="code"><b>
+
+
+
+&lt;html&gt;<br />
+
+&lt;body&gt;<br />
+
+<br />
+
+&lt;?php<br />
+
+function add($x,$y)<br />
+
+{<br />
+
+$total=$x+$y;<br />
+
+return $total;<br />
+
+}<br />
+
+<br />
+
+echo &quot;16 + 16 = &quot; . add(16,16);<br />
+
+?&gt;<br />
+
+<br />
+
+&lt;/body&gt;<br />
+
+&lt;/html&gt;
+
+
+
+</b></p>
+<br>
+
+
+<b>Output:</p>
+<br>
+<br>
+
+
+<p class="code"><b>
+
+
+
+16 + 16 = 32
+
+</b></p>
+
+<br />
+
+
+
+	</p>	
+
+		</li>
+	</ul>
+	
+</div>
+<div id="footer">
+Powered by APPDELITE</div>
+
+</body>
+
+</html>

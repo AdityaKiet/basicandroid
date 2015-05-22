@@ -1,0 +1,48 @@
+package com.example.sharmaproj;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+public class ClientThread implements Runnable {
+	static DataOutputStream dout;
+	static DataInputStream din;
+	 private static final int SERVERPORT = 8000;
+	    private static final String SERVER_IP = "192.168.0.101";
+	    
+	    
+public static Socket socket;
+    @Override
+    public void run() {
+
+        try {
+           // InetAddress serverAddr = InetAddress.getByName(SERVER_IP);
+
+            socket = new Socket(MainActivity.ip, SERVERPORT);
+            dout = new DataOutputStream(socket.getOutputStream());
+            din = new DataInputStream(socket.getInputStream());
+        } catch (UnknownHostException e1) {
+            e1.printStackTrace();
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        }
+
+    }
+    
+ // Gets called when the user types something
+    public static void sendCommands( String message ) {
+    try {
+    	{
+    		
+			dout.writeUTF(message);
+			
+			
+			
+		}
+   
+    } catch( IOException ie ) { System.out.println( ie ); }
+    }
+    }

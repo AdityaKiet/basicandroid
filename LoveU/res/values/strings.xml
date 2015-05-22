@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LoveU</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="logo">Logo Image of Love Calculator</string>
+    <string name="check">Check your compatibilty with your loved one!</string>
+    <string name="find_out_now">Find Out Now!</string>
+    <string name="enter_love_keyword_eg_loves">Enter love keyword (Eg : LOVES)</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_partner_s_name">Enter your partner\'s name</string>
+    <string name="title_activity_result">Result</string>
+    <string name="title_activity_result2">Result2</string>
+
+</resources>

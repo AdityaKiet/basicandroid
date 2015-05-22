@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CustomAdapter.java&apos; to &apos;LenDen/src/com.kiet.dto&apos;&#x0A;- Original project: &apos;CustomListVIewDemo1&apos;&#x0A;- Destination element: &apos;LenDen/src/com.kiet.dto&apos;&#x0A;- Original element: &apos;com.example.customlistviewdemo1.CustomAdapter.java&apos;" description="Copy compilation unit" destination="=LenDen/src&lt;com.kiet.dto" element1="/src&lt;com.example.customlistviewdemo1{CustomAdapter.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1414944734840" units="1" version="1.0"/>
+</session>

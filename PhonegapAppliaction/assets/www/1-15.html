@@ -1,0 +1,161 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<style type="text/css">
+table.table { border:1px solid #073E77; border-collapse:collapse; width:100%; }
+table.table th { background-color:#B7CAF7; border:1px solid #073E77; text-align: left; padding:3px; vertical-align:top; }
+table.table td { background-color:#E6EEF6; border:1px solid #073E77; padding:3px; vertical-align:top; }
+</style>
+<link href="pics/homescreen.gif" rel="apple-touch-icon" />
+
+<link href="css/style.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="javascript/functions.js" type="text/javascript"></script>
+<title>The $_POST 
+</title>
+<link href="pics/startup.png" rel="apple-touch-startup-image" />
+
+</head>
+
+<body>
+
+<div id="topbar" class="noeffect">
+<div id="title">
+		</div>
+	<div id="leftnav">
+		<a href="index.html"><img alt="home" src="images/home.png" /></a>
+		<a href="1-14.html">Back</a> </div>
+	 </div>
+</div>
+
+<div id="content">
+	<span class="graytitle"><font color="white"size="6">PHP $_POST</font></span>
+	
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">The $_POST Variable</font></span>
+<p>
+<p>The predefined $_POST variable is used to collect values from a form sent with 
+
+method=&quot;post&quot;.</p>
+
+<p>Information sent from a form with the POST method is invisible to others and 
+
+has no limits on the amount of information to send.</p>
+
+<p><b>Note:</b> However, there is an 8 Mb max size for the POST method, by default 
+
+(can be changed by setting the post_max_size in the php.ini file).</p>
+<br>
+<b>Example</b>
+<br>
+<br>
+<p class="code"><b>
+
+
+
+&lt;form action=&quot;welcome.php&quot; method=&quot;post&quot;&gt;<br />
+
+Name: &lt;input type=&quot;text&quot; name=&quot;fname&quot; /&gt;<br />
+
+Age: &lt;input type=&quot;text&quot; name=&quot;age&quot; /&gt;<br />
+
+&lt;input type=&quot;submit&quot; /&gt;<br />
+
+&lt;/form&gt;
+
+
+
+</b></p>
+
+<br>
+
+<p>When the user clicks the &quot;Submit&quot; button, the URL will look 
+
+like this:</p>
+<br>
+
+<p class="code"><b>
+
+
+
+http://www.kiet.com/welcome.php
+
+
+
+</b></p>
+<br>
+
+
+<p>The &quot;welcome.php&quot; file can now use the $_POST variable to collect form data 
+
+(the names of the form fields will automatically be the keys in the $_POST 
+
+array):</p>
+<br>
+<p class="code"><b>
+
+
+
+Welcome &lt;?php echo $_POST[&quot;fname&quot;]; ?&gt;!&lt;br /&gt;<br />
+
+You are &lt;?php echo $_POST[&quot;age&quot;]; ?&gt; years old.
+
+</b></p>
+
+<br />
+
+
+</p>
+	</li>
+	</ul>
+	
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">When to use method="post"?</font></span>
+Information sent from a form with the POST method is invisible to others and has no limits on the amount of information to send.
+<br>
+However, because the variables are not displayed in the URL, it is not possible to bookmark the page.
+			
+</p>
+	</li>
+	</ul>
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">The PHP $_REQUEST Variable</font></span>
+<p>The predefined $_REQUEST variable contains the contents of both $_GET, $_POST, and $_COOKIE.</p>
+
+<p>The $_REQUEST variable can be used to collect form data sent 
+
+with both the GET and POST methods.</p>
+
+<br>
+
+<b>Example</b>
+<br>
+<br>
+<p class="code"><b>
+
+
+
+Welcome &lt;?php echo $_REQUEST[&quot;fname&quot;]; ?&gt;!&lt;br /&gt;<br />
+
+You are &lt;?php echo $_REQUEST[&quot;age&quot;]; ?&gt; years old.
+
+</b></p>
+
+<br />
+
+			
+</p>
+	</li>
+	</ul>
+	
+	
+		</p>
+		</li>
+	</ul>
+</div>
+<div id="footer">
+Powered by APPDELITE</div>
+
+</body>
+
+</html>

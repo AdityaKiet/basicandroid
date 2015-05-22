@@ -1,0 +1,71 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kei.lenden"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.kiet.lenden.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kiet.lenden.Insert"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.kiet.lenden.Insert" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kiet.lenden.ViewData"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.kiet.lenden.ViewData" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kiet.lenden.Update"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.kiet.lenden.Update" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kiet.lenden.UpdateInsert"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.kiet.lenden.UpdateInsert" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kiet.lenden.Delete"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.kiet.lenden.Delete" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

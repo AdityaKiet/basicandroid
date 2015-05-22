@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.prgguru.example&apos; to &apos;Asyn/src&apos;&#x0A;- Original project: &apos;AsyncTaskExample&apos;&#x0A;- Destination element: &apos;Asyn/src&apos;&#x0A;- Original element: &apos;AsyncTaskExample/src/com.prgguru.example&apos;" description="Copy package" destination="=Asyn/src" element1="/src&lt;com.prgguru.example" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1410890451528" version="1.0"/>
+</session>

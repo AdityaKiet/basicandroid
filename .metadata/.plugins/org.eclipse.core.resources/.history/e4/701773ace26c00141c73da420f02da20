@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teamandappers.delhitourism"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.teamandappers.delhitourism.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Mainlist"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Mainlist" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Monumentlist"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Monumentlist" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Parkslist"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Parkslist" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Eatingjoints"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Eatingjoints" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.MuseumList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.MuseumList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.PubsDisc"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.PubsDisc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Akshardham"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Akshardham" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Bangla"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Bangla" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Budhha"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Budhha" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Chattar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Chattar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Deer"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Deer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Fivesense"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Fivesense" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Humayun"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Humayun" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Indiagate"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Indiagate" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Isckon"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Isckon" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Jaha"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Jaha" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Jama"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Jama" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Jantar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Jantar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Kalindi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Kalindi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Laxmi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Laxmi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Lotus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Lotus" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Mughal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Mughal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Nehru"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Nehru" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Oldfort"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Oldfort" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Parlia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Parlia" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Qutub"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Qutub" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Rashtrapati"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Rashtrapati" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Red"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Red" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Zoo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Zoo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Central"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Central" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Lodhi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Lodhi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Kalka"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Kalka" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Hum"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Hum" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Mill"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Mill" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamandappers.delhitourism.Sultan"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.teamandappers.delhitourism.Sultan" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+    </application>
+
+</manifest>

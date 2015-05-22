@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/setlietruth"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#000000" />
+
+    <Button
+        android:id="@+id/notdetermined"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/resulttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_above="@+id/resulttxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/redbutton" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/setlietruth"
+        android:layout_below="@+id/resulttxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#c0c0c0"
+        android:background="@drawable/apptheme_btn_default_holo_light"
+        android:text="CLEAR" />
+
+</RelativeLayout>

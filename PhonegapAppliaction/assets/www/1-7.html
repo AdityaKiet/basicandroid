@@ -1,0 +1,290 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<style type="text/css">
+table.table { border:1px solid #073E77; border-collapse:collapse; width:100%; }
+table.table th { background-color:#B7CAF7; border:1px solid #073E77; text-align: left; padding:3px; vertical-align:top; }
+table.table td { background-color:#000000; border:1px solid #073E77; padding:3px; vertical-align:top; }
+</style>
+<link href="pics/homescreen.gif" rel="apple-touch-icon" />
+
+<link href="css/style.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="javascript/functions.js" type="text/javascript"></script>
+<title>PHP If...Else Statements
+</title>
+<link href="pics/startup.png" rel="apple-touch-startup-image" />
+
+</head>
+
+<body>
+
+<div id="topbar" class="noeffect">
+<div id="title">
+		</div>
+	<div id="leftnav">
+		<a href="index.html"><img alt="home" src="images/home.png" /></a>
+		<a href="1-6.html">Back</a> </div>
+	<div id="rightnav">
+		<a href="1-8.html">Next</a> </div>
+</div>
+
+<div id="content">
+	<span class="graytitle"><font color="white"size="6">PHP If...Else Statements</font></span>
+	
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">Conditional Statements</font></span>
+<p>
+Very often when you write code, you want to perform different actions for 
+
+different decisions. </p>
+
+<p>You can use conditional statements in your code to do this.</p>
+
+<p>In PHP we have the following conditional statements:</p>
+
+<ul>
+
+  <li><b>if statement</b> - use this statement to execute some code only if a specified condition is true</li>
+
+  <li><b>if...else statement</b> - use this statement to execute some code if a condition is true and another 
+
+	code if the condition is false</li>
+
+	<li><b>if...elseif....else statement</b>  - use this statement to select one of 
+
+	several blocks of code to be executed</li>
+
+  <li><b>switch statement</b> - use this statement to select one of many blocks of code to be executed</li>
+
+</ul>
+
+</p>
+	</li>
+	</ul>
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">The if Statement</font></span>
+<p>
+Use the if statement to execute some code only if a specified condition is true.<br>
+<br>
+SYNTEX:
+<br>
+<p class="code"><b>if (condition) code to be executed if condition is true;</b></p>
+<br>
+<br>
+EXAMPLE:
+<br>
+<br>
+<p class="code"><b>&lt;html&gt;<br />
+
+&lt;body&gt;<br />
+
+<br />
+
+&lt;?php<br />
+
+$d=date(&quot;D&quot;);<br />
+
+if ($d==&quot;Sun&quot;) echo &quot;Today is Sunday!!&quot;;<br />
+
+?&gt;<br />
+
+<br />
+
+&lt;/body&gt;<br />
+
+&lt;/html&gt;
+</b></p>
+
+
+</p>
+	</li>
+	</ul>
+	
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">The if...else Statement</font></span>
+<p>
+Use the if....else statement to execute some code if a condition is true and another code if a condition is false.<br>
+<br>
+SYNTEX:
+<br>
+<p class="code"><b>if (<i>condition</i>)<br>
+
+&nbsp;
+
+{<br />
+
+&nbsp;&nbsp;<i>code to be executed if condition is true;<br>
+
+&nbsp;
+
+</i>}<br />
+
+else<br>
+
+&nbsp;
+
+{<br />
+
+&nbsp;&nbsp;<i>code to be executed if condition is false;<br>
+
+&nbsp;
+
+</i>}</b></p>
+<br>
+<br>
+EXAMPLE:<br>
+
+The following example will output "Today is Sunday!!" if the current day is Sun, otherwise it will output "Have a nice day!":
+<br>
+<br>
+<p class="code"><b>&lt;html&gt;<br />
+
+&lt;body&gt;<br />
+
+<br />
+
+&lt;?php<br />
+
+$d=date(&quot;D&quot;);<br />
+
+if ($d==&quot;Sun&quot;)<br>
+
+&nbsp;
+
+{<br />
+
+&nbsp;&nbsp;echo &quot;Today is Sunday!!&quot;;<br>
+
+&nbsp;
+
+}<br />
+
+else<br>
+
+&nbsp;
+
+{<br />
+
+&nbsp;&nbsp;echo &quot;Have a nice day!&quot;;<br>
+
+&nbsp;
+
+}<br />
+
+?&gt;<br />
+
+<br />
+
+&lt;/body&gt;<br />
+
+&lt;/html&gt;
+
+</b></p>
+
+
+</p>
+	</li>
+	</ul>
+	
+	<ul class="pageitem">
+		<li class="textbox"><span class="header"><font color="#880000">The if...elseif....else Statement</font></span>
+<p>
+Use the if....elseif...else statement to select one of several blocks of code to be executed.<br>
+<br>
+SYNTEX:
+<br>
+<p class="code"><b>if (<i>condition</i>)<br>
+
+&nbsp; {<br />
+
+&nbsp;&nbsp;<i>code to be executed if condition is true;<br>
+
+&nbsp; </i>}<br />
+
+elseif (<i>condition</i>)<br>
+
+&nbsp; {<br />
+
+&nbsp;&nbsp;<i>code to be executed if condition is true;<br>
+
+&nbsp;
+
+</i>}<i><br />
+
+</i>else<br>
+
+&nbsp; {<br />
+
+&nbsp;&nbsp;<i>code to be executed if condition is false;<br>
+
+</i>&nbsp; }</b></p>
+<br>
+<br>
+EXAMPLE:<br>
+The following example will output &quot;Today is Sunday!!&quot; if the current day 
+<br>
+is Sunday, and &quot;Today is Monday!!&quot; if the current day is Monday. Otherwise it will output &quot;Have a nice day!&quot;:
+<br>
+<br>
+<p class="code"><b>&lt;html&gt;<br />
+
+&lt;body&gt;<br />
+
+<br />
+
+&lt;?php<br />
+
+$d=date(&quot;D&quot;);<br />
+
+if ($d==&quot;Sun&quot;)<br>
+
+&nbsp; {<br />
+
+&nbsp;&nbsp;echo &quot;Today is Sunday!!&quot;;<br>
+
+&nbsp; }<br />
+
+elseif ($d==&quot;Mon&quot;)<br>
+
+&nbsp; {<br />
+
+&nbsp;&nbsp;echo &quot;Today is Monday!!&quot;;<br>
+
+&nbsp; }<br />
+
+else<br>
+
+&nbsp; {<br />
+
+&nbsp;&nbsp;echo &quot;Have a nice day!&quot;;<br>
+
+&nbsp; }<br />
+
+?&gt;<br />
+
+<br />
+
+&lt;/body&gt;<br />
+
+&lt;/html&gt;
+
+</b></p>
+
+
+</p>
+	</li>
+	</ul>
+	
+	
+	
+		</p>
+		</li>
+	</ul>
+</div>
+<div id="footer">
+Powered by APPDELITE</div>
+
+</body>
+
+</html>

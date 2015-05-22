@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:hint="Write Commands Here....."
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:weightSum="1" >
+
+                <Button
+                    android:id="@+id/btnConnect"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Connect" />
+
+                <Button
+                    android:id="@+id/btnRun"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="RUN" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="output is here" />
+
+            <Button
+                android:id="@+id/btnVLC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VLC" />
+
+            <Button
+                android:id="@+id/btnSleep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sleep" />
+
+            <Button
+                android:id="@+id/btnTextEditor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextEditor" />
+
+            <Button
+                android:id="@+id/btnShutdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shutdown" />
+
+            <Button
+                android:id="@+id/btnFirefox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FireFox" />
+
+            <Button
+                android:id="@+id/btnTerminal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terminal" />
+
+            <Button
+                android:id="@+id/btnChrome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chrome" />
+
+            <Button
+                android:id="@+id/btnLock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lock" />
+
+            <Button
+                android:id="@+id/btnRestart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restart" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

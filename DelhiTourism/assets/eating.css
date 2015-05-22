@@ -1,0 +1,97 @@
+body
+{width:900px;
+height:100%;
+background:#FFC;
+}
+.class1 {
+	
+	border-radius:10px;
+	color:#000;
+	height:52px;
+	width:900px;
+	background:#000;
+	margin-left:0px;
+
+
+	font-family:"Comic Sans MS", cursive;
+	text-shadow:4px 4px 4px #FFC0CB;
+}
+h1{font-size: 40px;
+	font-weight: 300;
+	font-variant: normal;
+margin-top:10px;
+font-family:"Comic Sans MS", cursive;
+	text-shadow:4px 4px 4px #FFC0CB;
+	background:#000;}
+	h2{font-size: 28px;
+	font-weight: 300;
+	font-variant: normal;
+		font-family:"Comic Sans MS", cursive;
+	text-shadow:4px 4px 4px #F6C;
+
+		}
+		
+		td{
+			font-size: 24px;
+	font-weight: 300;
+	font-variant:normal;
+		font-family:"Comic Sans MS", cursive;
+	text-shadow:4px 4px 4px #F6C;}
+	.class a
+	{height:40px;
+		width:900px;
+		}
+		.class 2a
+		{
+			width:900px;
+			height:30px;}
+		.class2{
+		width:900px;
+	height:340px;
+	
+	}
+	
+	.class5
+	{
+		width:900px;
+		height:340px;
+		}
+		.class6{
+			
+		width:900px;
+		height:340px;
+		}
+		.class7{
+			
+		width:900px;
+		height:340px;
+		}
+	.class3{
+    float:left;
+	height:320px;
+	width: 330px;
+	border:2px solid;
+	border-radius:25px;
+	border-color:#000;
+	box-shadow:10px 10px 10px #993300;
+	
+  background-color:#9F9;
+  
+    
+	
+}
+.class4
+{ float:right;
+	height:320px;
+	width: 330px;
+	border:2px solid;
+	border-radius:25px;
+	border-color:#000;
+	box-shadow:10px 10px 10px #993300;
+	
+  background-color:#CC9966;
+  
+    
+	
+	}
+h4{margin:2px;}

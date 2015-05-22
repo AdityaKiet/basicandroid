@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">LenDen</string>
+    <string name="display_message">Select One Option</string>
+    <string name="insert">Insert</string>
+    <string name="delete">Delete</string>
+    <string name="view">View All</string>
+    <string name="update">Update</string>
+    <string name="nametext">Name :</string>
+    <string name="takeamounttext">Take Amount :</string>
+    <string name="giveamounttext">Give Amount :</string>
+
+</resources>

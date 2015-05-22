@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight=".2" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/banner"
+            android:src="@drawable/kiet" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="KIET Canteen"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#A2F368"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="10dip"
+                android:text="Account Number : "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#A2F368"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/txtAccountNo"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="10dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#A2F368"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="10dip"
+                android:text="Name : "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#A2F368"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="10dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#A2F368"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="10dip"
+                android:text="Roll No."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#A2F368"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/txtRollno"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="10dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#A2F368"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="10dip"
+                android:text="Balance"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#A2F368"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/txtBalance"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="10dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#A2F368"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="10dip"
+                android:text="E-mail"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#A2F368"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="10dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#A2F368"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="10dip"
+                android:text="Phone No."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#A2F368"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/txtPhone"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="10dip"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#A2F368"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
